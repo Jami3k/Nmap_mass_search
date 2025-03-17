@@ -28,7 +28,7 @@ while True:
         port = ["-p", rawport]
 
     # nmap command stored in a variable
-    nmap_command = ["sudo", "nmap"] + port + [targetips]
+    nmap_command = ["nmap"] + port + [targetips]
 
     # runs the nmap command and stores the result in a variable
     nmap_result = subprocess.run(nmap_command, capture_output=True, text=True)
