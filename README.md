@@ -3,4 +3,4 @@ This tool optimizes the use of nmap on a large scale by making the output easily
 
 Download and run the tool using python. Upon execution, the tool will prompt you for a target ip range and a target port. It will then scan all ip's in that range and return the ip's where the port is up without any additional info. Useful for copy-pasting and easy to read. 
 
-For requirements see REQUIREMENTS.txt
+For requirements see requirements.txt
